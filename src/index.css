@@ -130,3 +130,44 @@ button {
   height: 40px;
   font-size: 20px;
 }
+
+.next_prev {
+  position: relative;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.next_prev .prev {
+  position: absolute;
+  padding: 10px;
+  left: 0;
+  border-radius: 4px;
+  background-color: lightgreen;
+}
+
+.next_prev .next {
+  position: absolute;
+  padding: 10px;
+  right: 0;
+  border-radius: 4px;
+  background-color: lightgreen;
+}
+
+.next_prev .go {
+  position: absolute;
+  padding: 10px;
+  margin-top: 4px;
+  margin-left: 410px;
+  border-radius: 4px;
+  color: #333;
+  background-color: lightgreen;
+}
+
+.next_prev select {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 330px;
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+}

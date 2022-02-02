@@ -7,6 +7,17 @@ import EmptyPage from './component/EmptyPage';
 import CreateWord from './component/CreateWord';
 import CreateDay from './component/CreateDay';
 
+/**
+ * 여기가 메인 페이지!
+ * 
+ * 리액트 프로젝트를 실행시키려면 yarn start(or npm start)
+ * 
+ * 단어장 프로젝트에서는 백엔드 서버 대신 json 파일에 기록했고, json-server를 사용했음
+ * 실행시키려면 json-server --watch 경로/[파일명].json --port [포트번호]
+ * 
+ * 서버를 먼저 실행시켜야 리액트 프로젝트가 문제없이 실행됨!
+ */
+
 function App() {
   return (
     <BrowserRouter>

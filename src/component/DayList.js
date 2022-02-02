@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 
+// 단어 Day 리스트
 function DayList() {
 	const days = useFetch('http://localhost:3001/days');
 
